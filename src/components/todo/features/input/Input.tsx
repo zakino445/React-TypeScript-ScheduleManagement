@@ -4,10 +4,7 @@ import "./input.css";
 export const Input: FC = () => {
   return (
     <div className="input-box">
-      <label>
-        挑戦すること：
-        <input type="text" placeholder="入力" className="input" />
-      </label>
+      <input type="text" placeholder="入力" title="挑戦することを入力" className="input" />
     </div>
   );
 };

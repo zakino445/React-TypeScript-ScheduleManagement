@@ -1,9 +1,13 @@
+import { FC } from "react";
 import "./input.css";
 
-export const Input = () => {
+export const Input: FC = () => {
   return (
     <div className="input-box">
-      <input type="text" placeholder="入力" />
+      <label>
+        挑戦すること：
+        <input type="text" placeholder="入力" className="input" />
+      </label>
     </div>
   );
 };

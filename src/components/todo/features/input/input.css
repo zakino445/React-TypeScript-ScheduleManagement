@@ -1,0 +1,12 @@
+.input {
+  width: 400px; /* 仮決め */
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.input-box {
+  text-align: center;
+  padding-top: 10px;
+}

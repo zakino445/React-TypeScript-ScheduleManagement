@@ -1,5 +1,6 @@
-import { Header } from "./components/ui/layouts/Header";
+import { FC } from "react";
+import { SelfManagement } from "./components/pages/SelfManagement";
 
-export const App = () => {
-  return <Header />;
+export const App: FC = () => {
+  return <SelfManagement />;
 };

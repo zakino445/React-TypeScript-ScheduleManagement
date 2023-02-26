@@ -1,12 +1,12 @@
 import { FC } from "react";
-import { Input } from "../todo/features/input/Input";
+import { InputFunction } from "../todo/features/inputfunction/InputFunction";
 import { Header } from "../ui/layouts/Header";
 
 export const SelfManagement: FC = () => {
   return (
     <>
       <Header />
-      <Input />
+      <InputFunction />
     </>
   );
 };

@@ -1,5 +1,5 @@
-import { Header } from "./components/ui/layouts/Header";
+import { SelfManagement } from "./components/pages/SelfManagement";
 
 export const App = () => {
-  return <Header />;
+  return <SelfManagement />;
 };

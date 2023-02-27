@@ -2,8 +2,8 @@
 .button {
   background-color: #d2691e;
   color: #fff;
-  border-radius: 5px;
-  padding: 6px 10px;
+  border-radius: 20px;
+  padding: 6px 20px;
 }
 
 .button:hover {

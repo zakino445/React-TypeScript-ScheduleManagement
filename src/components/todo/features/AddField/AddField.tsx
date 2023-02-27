@@ -10,7 +10,7 @@ export const AddField: FC = () => {
         <Input />
       </div>
       <div className="addField-button-wrapper">
-        <Button />
+        <Button text={"追加"} />
       </div>
     </div>
   );

@@ -6,10 +6,10 @@ import "./AddField.css";
 export const AddField: FC = () => {
   return (
     <div className="addField-wrapper">
-      <div className="input-wrapper">
+      <div className="addField-input-wrapper">
         <Input />
       </div>
-      <div className="button-wrapper">
+      <div className="addField-button-wrapper">
         <Button />
       </div>
     </div>

@@ -5,11 +5,11 @@ import "./AddField.css";
 
 export const AddField: FC = () => {
   return (
-    <div className="additional">
-      <div className="input-box">
+    <div className="addField-wrapper">
+      <div className="input-wrapper">
         <Input />
       </div>
-      <div className="wrapper">
+      <div className="button-wrapper">
         <Button />
       </div>
     </div>

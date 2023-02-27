@@ -1,14 +1,14 @@
-.additional {
+.addField-wrapper {
   display: flex;
   justify-content: center;
 }
 
-.input-box {
+.input-wrapper {
   text-align: center;
   margin-top: 10px;
 }
 
-.wrapper {
+.button-wrapper {
   margin-top: 10px;
   margin-left: 8px;
 }

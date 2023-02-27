@@ -6,8 +6,12 @@ import "./AddField.css";
 export const AddField: FC = () => {
   return (
     <div className="additional">
-      <Input />
-      <Button />
+      <div className="input-box">
+        <Input />
+      </div>
+      <div className="wrapper">
+        <Button />
+      </div>
     </div>
   );
 };

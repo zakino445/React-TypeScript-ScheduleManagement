@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Button } from "../../todo/features/Button/Button";
+import { Button } from "../Button/Button";
 import "./ChallengeArea.css";
 
 export const ChallengeArea: FC = () => {

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import "./input.css";
+import "./Input.css";
 
 export const Input: FC = () => {
   return (

@@ -1,12 +1,12 @@
 import { FC } from "react";
-import { InputFunction } from "../todo/features/inputfunction/InputFunction";
-import { Header } from "../ui/layouts/Header";
+import { SearchField } from "../todo/features/SearchField/SearchField";
+import { Header } from "../ui/Layouts/Header";
 
 export const SelfManagement: FC = () => {
   return (
     <>
       <Header />
-      <InputFunction />
+      <SearchField />
     </>
   );
 };

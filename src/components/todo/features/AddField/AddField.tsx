@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Button } from "../Button/Button";
-import { Input } from "../input/Input";
+import { Input } from "../Input/Input";
 import "./AddField.css";
 
 export const AddField: FC = () => {

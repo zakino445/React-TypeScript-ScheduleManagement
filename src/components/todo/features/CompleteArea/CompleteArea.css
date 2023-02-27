@@ -1,12 +1,12 @@
-.challengeArea {
-  background-color: #7fff00;
+.completeArea {
+  background-color: #a5ebef;
   border-radius: 10px;
   width: 50%;
   height: 300px;
   margin: 10px auto;
 }
 
-.challengeArea-title {
+.completeArea-title {
   text-align: center;
   font-weight: bold;
   font-size: 32px;
@@ -15,12 +15,12 @@
   margin-bottom: 10px;
 }
 
-.challengeArea-list {
+.completeArea-list {
   display: flex;
   justify-content: center;
 }
 
-.challengeArea-list-text {
+.completeArea-list-text {
   list-style: disc;
   font-size: 24px;
   margin-right: 10px;

@@ -4,7 +4,7 @@ import { Input } from "../Input/Input";
 import "./AddField.css";
 
 export const AddField: FC = () => {
-  const [addText, setAddText] = useState("");
+  const [text, setAddText] = useState("");
 
   const onChangeAddText = (event: React.ChangeEvent<HTMLInputElement>) =>
     setAddText(event.target.value);
@@ -12,7 +12,7 @@ export const AddField: FC = () => {
   return (
     <div className="addField-wrapper">
       <div className="addField-input-wrapper">
-        <Input onChangeAddText={onChangeAddText} addText={addText} />
+        <Input onChangeAddText={onChangeAddText} text={text} />
       </div>
       <div className="addField-button-wrapper">
         <Button text={"追加"} />

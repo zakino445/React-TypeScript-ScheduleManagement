@@ -7,8 +7,8 @@ export const CompleteArea: FC = () => {
     <div className="completeArea">
       <p className="completeArea-title">達成</p>
       <ul className="completeArea-list">
-        <li className="completeArea-list-text">仮置き</li>
-        <li>
+        <li className="completeArea-list-text">
+          <span className="completeArea-list-text-size">仮置き</span>
           <Button text={"削除"} />
         </li>
       </ul>

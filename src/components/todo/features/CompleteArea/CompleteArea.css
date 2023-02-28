@@ -22,6 +22,11 @@
 
 .completeArea-list-text {
   list-style: disc;
+  display: flex;
+  align-items: center;
+}
+
+.completeArea-list-text-size {
   font-size: 24px;
   margin-right: 10px;
 }

@@ -20,13 +20,12 @@
   justify-content: center;
 }
 
-.completeArea-list-text {
-  list-style: disc;
+.completeArea-list-item {
   display: flex;
   align-items: center;
 }
 
-.completeArea-list-text-size {
+.completeArea-list-text {
   font-size: 24px;
   margin-right: 10px;
 }

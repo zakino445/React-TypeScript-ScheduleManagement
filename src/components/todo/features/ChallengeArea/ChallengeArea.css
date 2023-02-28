@@ -20,13 +20,13 @@
   justify-content: center;
 }
 
-.challengeArea-list-text {
+.challengeArea-list-item {
   list-style: disc;
   display: flex;
   align-items: center;
 }
 
-.challengeArea-list-text-size {
+.challengeArea-list-text {
   font-size: 24px;
   margin-right: 10px;
 }
